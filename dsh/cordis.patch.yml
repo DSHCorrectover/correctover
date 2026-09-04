@@ -1,0 +1,7 @@
+# correctover/dsh bundle layer: auto-mounts when installed via
+# `dsh plugin add correctover`.
+# 2026-08-19 修复: name 从 `correctover-dsh`(npm 无此包, E404) 改为 `correctover/dsh`
+# (correctover 包的 subpath export, 见 package.json exports["./dsh"]).
+- insert:
+    - id: ccs-guard
+      name: correctover/dsh
