@@ -1,0 +1,75 @@
+{
+  "name": "correctover",
+  "version": "2.4.13",
+  "description": "AI Agent runtime authorization & evidence verification — tool-call GuardrailProvider, CCS 7-dimension verification standard, MCP/DSH security scanner, SSRF/command-injection/credential-exfil blocking with Ed25519 signed receipts.",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./guardrail": "./guardrail.js",
+    "./dsh": "./dsh/index.js"
+  },
+  "bin": {
+    "correctover-scan": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "guardrail.js",
+    "cli.js",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md",
+    "dsh/",
+    "tests/"
+  ],
+  "scripts": {
+    "test": "node tests/ccs-capability-test.mjs && node tests/ccs-output-toolaware-test.mjs && node tests/ccs-powershell-cradle-test.mjs && node tests/ccs-filewrite-context-test.mjs",
+    "demo": "node cli.js --demo"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-security",
+    "model-context-protocol",
+    "ai-agent-security",
+    "agent-security",
+    "agent-runtime",
+    "llm-security",
+    "guardrail",
+    "runtime-verification",
+    "runtime-security",
+    "tool-authorization",
+    "agent-authorization",
+    "evidence-verification",
+    "supply-chain-security",
+    "ssrf",
+    "prompt-injection",
+    "command-injection",
+    "credential-exfiltration",
+    "ccs",
+    "ccs-verifier",
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek-harness-plugin",
+    "security-scanner",
+    "ai-safety",
+    "agent-governance"
+  ],
+  "author": "Guigui Wang <wangguigui@correctover.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/DSHCorrectover/correctover#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSHCorrectover/correctover.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DSHCorrectover/correctover/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./dsh/cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
