@@ -179,3 +179,11 @@ IETF Internet-Draft: [draft-correctover-ccs](https://datatracker.ietf.org/doc/dr
 
 Source-available, proprietary commercial license. See [LICENSE](./LICENSE).
 Free for evaluation and non-commercial use. Commercial licenses available by contact: wangguigui@correctover.com.
+
+---
+
+## Security audits
+
+We audit key-generation, signing, and runtime-verification paths for wallets, exchanges, and AI infrastructure — black-box, evidence-grade deliverables (signed receipts, RFC 3161 timestamps). Recent public work includes corrections incorporated into CVE-2026-73567's advisory and independently discovered high-severity findings in AI-lab infrastructure.
+
+wangguigui@correctover.com · https://correctover.com
