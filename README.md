@@ -166,6 +166,18 @@ IETF Internet-Draft: [draft-correctover-ccs](https://datatracker.ietf.org/doc/dr
 | [`correctover-mcp-gateway`](https://www.npmjs.com/package/correctover-mcp-gateway) | Production MCP Security Gateway (bidirectional, rate limiting, metrics) |
 | [`ccs-verifier`](https://pypi.org/project/ccs-verifier/) | Python implementation of CCS verification |
 
+## Commercial
+
+| Offering | Price (USD) |
+|----------|-------------|
+| Runtime SDK + scanner (this package) | **Free for evaluation** |
+| Standard human audit (CCS-mapped, evidence-grade) | **$2,500** |
+| Deep audit + PoC + remediation roadmap | **$8,000+** |
+| Private deploy / integration support | **$5,000** |
+| Annual retainer (monitoring + emergency) | **$25,000/yr** |
+
+Formal quote follows written scoping (async email only). Contact: **wangguigui@correctover.com**
+
 ## Documentation
 
 - **GitHub:** https://github.com/DSHCorrectover/correctover
