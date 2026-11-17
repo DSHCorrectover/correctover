@@ -1,5 +1,7 @@
 # Correctover — AI Agent Runtime Authorization & Evidence Verification
 
+[**Commercial verification engagements — USD 8,000–15,000, court-ready dossier**](https://dshcorrectover.github.io/correctover-recovery-admission/services.html) · [**Independent audit & conformance**](https://dshcorrectover.github.io/correctover-recovery-admission/services.html)
+
 [![npm version](https://img.shields.io/npm/v/correctover.svg)](https://www.npmjs.com/package/correctover)
 [![License: Source-available](https://img.shields.io/badge/license-Source--available-blue.svg)](./LICENSE)
 [![IETF Draft](https://img.shields.io/badge/IETF-draft--correctover--ccs-007ec6.svg)](https://datatracker.ietf.org/doc/draft-correctover-ccs/)
